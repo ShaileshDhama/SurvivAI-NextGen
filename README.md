@@ -145,7 +145,3 @@ The backend implements various survival analysis models:
 ## Frontend Integration
 
 The backend is designed to integrate with the SurvivAI frontend, which can consume the API endpoints to provide a user-friendly interface for survival analysis.
-
-## License
-
-[Include license information here]
