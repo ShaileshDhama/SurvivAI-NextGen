@@ -1,0 +1,52 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "survivai-model"
+  annotations:
+    sidecar.istio.io/inject: "false"
+spec:
+  predictor:
+    minReplicas: 1
+    maxReplicas: 5
+    sklearn:
+      storageUri: "s3://survivai-models/sklearn/survival-model/"
+      resources:
+        requests:
+          cpu: "500m"
+          memory: "1Gi"
+        limits:
+          cpu: "2"
+          memory: "4Gi"
+      env:
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: survivai-secrets
+              key: aws-access-key-id
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: survivai-secrets
+              key: aws-secret-access-key
+        - name: AWS_REGION
+          valueFrom:
+            configMapKeyRef:
+              name: survivai-config
+              key: aws-region
+      containerConcurrency: 5
+    transformer:
+      minReplicas: 1
+      maxReplicas: 3
+      containers:
+        - image: ${TRANSFORMER_IMAGE}:${IMAGE_TAG}
+          name: custom-transformer
+          env:
+            - name: MODEL_NAME
+              value: "survivai-model"
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "1Gi"

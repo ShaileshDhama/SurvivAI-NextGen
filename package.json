@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "res:build": "rescript",
+    "res:dev": "rescript -w"
+  },
+  "dependencies": {
+    "bs-fetch": "^0.6.2"
+  }
+}

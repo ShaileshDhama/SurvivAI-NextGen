@@ -1,0 +1,103 @@
+{% extends "base_report.html" %}
+
+{% block content %}
+<section class="risk-stratification-section">
+    <h2>Risk Stratification Analysis</h2>
+    
+    <div class="insights-box">
+        <h3>AI-Generated Insights</h3>
+        <p>{{ ai_summary }}</p>
+    </div>
+    
+    <div class="chart-container">
+        <h3>Risk Group Survival Curves</h3>
+        <img src="data:image/png;base64,{{ risk_curves_image }}" alt="Risk Group Survival Curves" style="width: 100%; max-width: 600px;">
+    </div>
+    
+    <h3>Risk Group Comparison</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Risk Group</th>
+                <th>Number of Patients</th>
+                <th>Proportion</th>
+                <th>Events</th>
+                <th>Median Survival</th>
+                <th>Hazard Ratio</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for group in risk_groups %}
+            <tr>
+                <td>
+                    <span class="risk-{{ group.level | lower }}">{{ group.name }}</span>
+                </td>
+                <td>{{ group.n_patients }}</td>
+                <td>{{ group.proportion * 100 }}%</td>
+                <td>{{ group.n_events }}</td>
+                <td>{{ group.median_survival }} months</td>
+                <td>{{ group.hazard_ratio }} {% if group.reference %}(reference){% endif %}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <h3>Log-Rank Test</h3>
+    <p>The log-rank test p-value is <strong>{{ log_rank_pvalue }}</strong>, indicating {% if log_rank_pvalue < 0.05 %}a statistically significant difference{% else %}no statistically significant difference{% endif %} in survival between the risk groups.</p>
+    
+    <h3>Key Risk Factors</h3>
+    <div class="chart-container">
+        <h4>Feature Importance Chart</h4>
+        <img src="data:image/png;base64,{{ feature_importance_image }}" alt="Feature Importance" style="width: 100%; max-width: 600px;">
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Risk Factor</th>
+                <th>Importance Score</th>
+                <th>Hazard Ratio</th>
+                <th>95% CI</th>
+                <th>p-value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for factor in risk_factors %}
+            <tr>
+                <td>{{ factor.name }}</td>
+                <td>{{ factor.importance }}</td>
+                <td>{{ factor.hazard_ratio }}</td>
+                <td>{{ factor.ci_lower }} - {{ factor.ci_upper }}</td>
+                <td>{{ factor.p_value }}{% if factor.p_value < 0.05 %}*{% endif %}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <p class="footnote">* p < 0.05 indicates statistical significance</p>
+    
+    <h3>Risk Stratification Method</h3>
+    <p>{{ risk_stratification_method }}</p>
+    
+    <h3>Survival Rates by Risk Group</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Timepoint</th>
+                {% for group in risk_groups %}
+                <th>{{ group.name }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for timepoint in survival_rates_by_group %}
+            <tr>
+                <td>{{ timepoint.time }} months</td>
+                {% for rate in timepoint.rates %}
+                <td>{{ rate.value * 100 }}% ({{ rate.ci_lower * 100 }}-{{ rate.ci_upper * 100 }}%)</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+{% endblock %}

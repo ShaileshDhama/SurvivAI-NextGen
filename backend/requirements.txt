@@ -1,0 +1,62 @@
+# Core FastAPI dependencies
+fastapi>=0.95.0
+uvicorn>=0.21.1
+pydantic>=2.0.0
+python-multipart>=0.0.6
+email-validator>=2.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+polars>=0.17.0 
+duckdb>=0.8.0
+pyarrow>=12.0.0
+
+# ML dependencies
+scikit-learn>=1.2.0
+lifelines>=0.27.0
+torch>=2.0.0
+tensorflow>=2.12.0
+xgboost>=1.7.0
+lightgbm>=4.0.0
+shap>=0.41.0
+lime>=0.2.0
+captum>=0.6.0
+statsmodels>=0.14.0
+pycox>=0.2.3
+scikit-survival>=0.20.0
+optuna>=3.2.0
+ray[tune]>=2.5.0
+pymc>=5.0.0
+cmdstanpy>=1.1.0
+
+# Deep Learning Survival Models
+pysurvival>=0.2.0
+deepsurvk>=0.2.0
+deep-survival-analysis>=0.1.0
+deephit>=0.1.0
+transformers>=4.28.0
+
+# Model serving
+torchserve>=0.7.0
+tensorflow-serving-api>=2.12.0
+
+# Distributed processing
+pyspark>=3.4.0
+
+# Database
+sqlalchemy>=2.0.0
+asyncpg>=0.27.0
+alembic>=1.10.0
+
+# Authentication
+python-jose>=3.3.0
+passlib>=1.7.4
+bcrypt>=4.0.0
+
+# Testing
+pytest>=7.3.0
+httpx>=0.24.0
+
+# Deployment
+gunicorn>=20.1.0

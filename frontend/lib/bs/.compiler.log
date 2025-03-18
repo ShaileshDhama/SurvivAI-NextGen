@@ -1,0 +1,90 @@
+#Start(40253595)
+
+  Syntax error!
+  D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\components\visualizations\FeatureImportanceViz.res:556:30-36
+
+  554 ┆   ~interactive: bool=true,
+  555 ┆ ) => {
+  556 ┆   let chartRef: Dom.ref = {mutable current: Js.Nullable.null}
+  557 ┆   let isLoading = State.createState(true)
+  558 ┆   let error = State.createState(None)
+
+  I'm not sure what to parse here when looking at "mutable".
+
+
+  Syntax error!
+  D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\components\visualizations\FeatureImportanceViz.res:684:42
+
+  682 ┆ switch State.getValue(status) {
+  683 ┆ | Loading => Js.log("Loading")
+  684 ┆ | Error(message) => Js.log("Error: " ^ message)
+  685 ┆ | Loaded(data) => 
+  686 ┆     FeatureImportance.make(
+
+  Not sure what to do with this character.
+  If you're trying to dereference a mutable value, use `myValue.contents` instead.
+  To concatenate strings, use `"a" ++ "b"` instead.
+
+
+  Syntax error!
+  D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\components\visualizations\FeatureImportanceViz.res:684:41-50
+
+  682 ┆ switch State.getValue(status) {
+  683 ┆ | Loading => Js.log("Loading")
+  684 ┆ | Error(message) => Js.log("Error: " ^ message)
+  685 ┆ | Loaded(data) => 
+  686 ┆     FeatureImportance.make(
+
+  Did you forget a `,` here?
+
+
+  We've found a bug for you!
+  D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\services\AuthService.res:37:14-30
+
+  35 ┆ 
+  36 ┆ let requestInit = Fetch.RequestInit.make(
+  37 ┆   ~method_=Fetch.Method.post,
+  38 ┆   ~headers=Fetch.Headers.fromObject({
+  39 ┆     "Content-Type": "application/json",
+
+  This has type: string
+  But this function argument is expecting: Fetch.requestMethod
+
+
+  Syntax error!
+  D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\components\Components.res:379:21-22
+
+  377 ┆             
+  378 ┆             <tr
+  379 ┆ key=row->Obj.magic->Js.Dict.get("id")->Option.getWithDefault("")
+  380 ┆ onClick={switch rowClickHandler {
+  381 ┆   | Some(handler) => handler
+
+  Did you forget a `</` here?
+
+
+  We've found a bug for you!
+  D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\services\ReportService.res:56:3-21
+
+  54 │ // Get all reports
+  55 │ let getReports = (): Promise.t<array<reportMetadata>> => {
+  56 │   Fetch.fetch(apiUrl)
+  57 │   ->Promise.then_(response => Fetch.Response.json(response))
+  58 │   ->Promise.then_(data => {
+
+  This has type:
+    Js.Promise.t<Fetch.response> (defined as promise<Fetch.response>)
+  But it's expected to have type: 'a => promise<'b>
+
+
+  We've found a bug for you!
+  D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\bindings\React.res
+
+  The module or file React can't be found.
+  - If it's a third-party dependency:
+    - Did you add it to the "bs-dependencies" or "bs-dev-dependencies" in bsconfig.json?
+  - Did you include the file's directory to the "sources" in bsconfig.json?
+  
+
+FAILED: cannot make progress due to previous errors.
+#Done(40253707)

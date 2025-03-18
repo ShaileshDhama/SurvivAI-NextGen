@@ -1,0 +1,111 @@
+{% extends "base_report.html" %}
+
+{% block content %}
+<section class="summary-section">
+    <h2>Survival Analysis Summary</h2>
+    
+    <div class="insights-box">
+        <h3>AI-Generated Insights</h3>
+        <p>{{ ai_summary }}</p>
+    </div>
+    
+    <div class="chart-container">
+        <h3>Kaplan-Meier Survival Curve</h3>
+        <img src="data:image/png;base64,{{ km_curve_image }}" alt="Kaplan-Meier Survival Curve" style="width: 100%; max-width: 600px;">
+    </div>
+    
+    <h3>Model Performance Metrics</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Metric</th>
+                <th>Value</th>
+                <th>Interpretation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C-Index</td>
+                <td>{{ metrics.c_index }}</td>
+                <td>{{ metrics.c_index_interpretation }}</td>
+            </tr>
+            <tr>
+                <td>AUC</td>
+                <td>{{ metrics.auc }}</td>
+                <td>{{ metrics.auc_interpretation }}</td>
+            </tr>
+            <tr>
+                <td>Brier Score</td>
+                <td>{{ metrics.brier_score }}</td>
+                <td>{{ metrics.brier_score_interpretation }}</td>
+            </tr>
+            <tr>
+                <td>Log-Likelihood</td>
+                <td>{{ metrics.log_likelihood }}</td>
+                <td>{{ metrics.log_likelihood_interpretation }}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3>Population Characteristics</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Characteristic</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Number of Patients</td>
+                <td>{{ population.n_patients }}</td>
+            </tr>
+            <tr>
+                <td>Number of Events</td>
+                <td>{{ population.n_events }}</td>
+            </tr>
+            <tr>
+                <td>Median Follow-up Time</td>
+                <td>{{ population.median_followup }} months</td>
+            </tr>
+            <tr>
+                <td>Male/Female Ratio</td>
+                <td>{{ population.male_female_ratio }}</td>
+            </tr>
+            <tr>
+                <td>Age Range</td>
+                <td>{{ population.age_range }}</td>
+            </tr>
+            <tr>
+                <td>Median Age</td>
+                <td>{{ population.median_age }}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3>Median Survival Time</h3>
+    <p>The median survival time for the overall population is <strong>{{ median_survival_time }} months</strong> (95% CI: {{ median_survival_ci }}).</p>
+    
+    <h3>Survival Rates</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Timepoint</th>
+                <th>Survival Rate</th>
+                <th>95% Confidence Interval</th>
+                <th>Number at Risk</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for rate in survival_rates %}
+            <tr>
+                <td>{{ rate.timepoint }} months</td>
+                <td>{{ rate.rate * 100 }}%</td>
+                <td>{{ rate.lower_ci * 100 }}% - {{ rate.upper_ci * 100 }}%</td>
+                <td>{{ rate.n_at_risk }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+{% endblock %}

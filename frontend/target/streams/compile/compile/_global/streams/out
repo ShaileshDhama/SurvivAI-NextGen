@@ -1,0 +1,584 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\DataTable.scala:137:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m137 |[0m              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\DataTable.scala:403:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m403 |[0m                    [31m"aria-label"[0m = [31m"Pagination"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\DataTable.scala:430:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m430 |[0m                        [31m"aria-hidden"[0m = [31m"true"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                      ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                      ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\DataTable.scala:459:39 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m459 |[0m                        [31m"aria-current"[0m = [33mif[0m (isActive) [31m"page"[0m [33melse[0m [31mnull[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                       ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                       ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\DataTable.scala:489:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m489 |[0m                        [31m"aria-hidden"[0m = [31m"true"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                      ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                      ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\reports\ReportChatbot.scala:85:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m85 |[0m              [31m"Content-Type"[0m = [31m"application/json"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                             ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                             ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\reports\ReportChatbot.scala:127:28 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m127 |[0m      [33mval[0m [36mformatTimestamp[0m = (timestamp: [35mString[0m): [35mString[0m => {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                   not a legal formal parameter for a function literal[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\reports\ReportGenerationForm.scala:63:27 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m63 |[0m            [31m"Content-Type"[0m = [31m"application/json"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                           ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                           ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\reports\ReportList.scala:32:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m      [33mval[0m [36mformatDate[0m = (date: js.Date): [35mString[0m => {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                       ^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     not a legal formal parameter for a function literal[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\reports\ReportViewer.scala:83:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m83 |[0m      [33mval[0m [36mformatDate[0m = (date: js.Date): [35mString[0m => {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                       ^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     not a legal formal parameter for a function literal[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\components\reports\ReportViewer.scala:97:34 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m97 |[0m      [33mval[0m [36mconvertMarkdownToHtml[0m = (markdown: [35mString[0m): [35mString[0m => {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     not a legal formal parameter for a function literal[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\contexts\DatasetContext.scala:45:65 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m      [33mval[0m [36mgetDataset[0m = (id: [35mString[0m): js.UndefOr[Dataset.Dataset] = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                 end of statement expected but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:16:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m    [33mvar[0m [36mcIndex[0m: js.UndefOr[[35mDouble[0m] = js.undefined[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    refinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    You can use an explicit getter cIndex and setter cIndex_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:17:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m    [33mvar[0m [36mibs[0m: js.UndefOr[[35mDouble[0m] = js.undefined[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    refinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    You can use an explicit getter ibs and setter ibs_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:18:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m    [33mvar[0m [36maucTime[0m: js.UndefOr[[35mDouble[0m] = js.undefined[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    refinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    You can use an explicit getter aucTime and setter aucTime_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:19:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m    [33mvar[0m [36mbrierScore[0m: js.UndefOr[[35mDouble[0m] = js.undefined[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mrefinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mYou can use an explicit getter brierScore and setter brierScore_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:50:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m50 |[0m    [33mvar[0m [36mname[0m: [35mString[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    refinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    You can use an explicit getter name and setter name_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:51:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m51 |[0m    [33mvar[0m [36mmodelType[0m: [35mModelType[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m refinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m You can use an explicit getter modelType and setter modelType_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:52:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m    [33mvar[0m [36manalysisId[0m: [35mString[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mrefinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mYou can use an explicit getter analysisId and setter analysisId_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:53:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m    [33mvar[0m [36mparameters[0m: js.Object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mrefinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mYou can use an explicit getter parameters and setter parameters_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:54:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m54 |[0m    [33mvar[0m [36mdescription[0m: js.UndefOr[[35mString[0m] = js.undefined[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mrefinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mYou can use an explicit getter description and setter description_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:61:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m61 |[0m    [33mvar[0m [36mid[0m: [35mString[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    refinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    You can use an explicit getter id and setter id_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:62:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m62 |[0m    [33mvar[0m [36mname[0m: js.UndefOr[[35mString[0m] = js.undefined[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    refinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    You can use an explicit getter name and setter name_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:63:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m63 |[0m    [33mvar[0m [36mdescription[0m: js.UndefOr[[35mString[0m] = js.undefined[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mrefinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mYou can use an explicit getter description and setter description_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\models\Model.scala:64:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m64 |[0m    [33mvar[0m [36mparameters[0m: js.UndefOr[js.Object] = js.undefined[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mrefinement cannot be a mutable var.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mYou can use an explicit getter parameters and setter parameters_= instead[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Analyses.scala:186:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m186 |[0m              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\CreateVisualization.scala:310:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m310 |[0m                  name = [31m"title"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\CreateVisualization.scala:631:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m631 |[0m                    name = [31m"showGrid"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                      ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\CreateVisualization.scala:659:40 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m659 |[0m                    name = [31m"showLegend"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                        ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\CreateVisualization.scala:688:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m688 |[0m              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Datasets.scala:171:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m171 |[0m              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Login.scala:105:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m105 |[0m                  name = [31m"email"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Login.scala:137:36 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m137 |[0m                  name = [31m"password"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                    ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Login.scala:152:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m152 |[0m              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Models.scala:167:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m167 |[0m              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewAnalysis.scala:335:34 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m335 |[0m                      id = [31m"name"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                  ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                  expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewAnalysis.scala:630:49 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m630 |[0m                              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewAnalysis.scala:665:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m665 |[0m                  js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewModel.scala:192:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m192 |[0m                    id = [31m"penalizer"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewModel.scala:219:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m219 |[0m                    id = [31m"alpha"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewModel.scala:293:40 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m293 |[0m                    id = [31m"n_estimators"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                        ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewModel.scala:320:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m320 |[0m                    id = [31m"max_depth"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewModel.scala:346:45 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m346 |[0m                    id = [31m"min_samples_split"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                             ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewModel.scala:500:30 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m500 |[0m                  id = [31m"name"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                              ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                              expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewModel.scala:662:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m662 |[0m                js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewModel.scala:672:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m672 |[0m                js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewVisualization.scala:201:40 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m201 |[0m                    id = [31m"timeVariable"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                        ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewVisualization.scala:225:41 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m225 |[0m                    id = [31m"eventVariable"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                         ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewVisualization.scala:249:41 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m249 |[0m                    id = [31m"groupVariable"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                         ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewVisualization.scala:278:48 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m278 |[0m                      id = [31m"sortBySignificance"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewVisualization.scala:319:39 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m319 |[0m                    id = [31m"numFeatures"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                       ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewVisualization.scala:342:46 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m342 |[0m                      id = [31m"sortByImportance"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                              ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewVisualization.scala:440:31 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m440 |[0m                  id = [31m"title"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                               ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                               expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewVisualization.scala:602:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m602 |[0m                js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\NewVisualization.scala:612:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m612 |[0m                js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Register.scala:104:32 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m104 |[0m                  name = [31m"name"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Register.scala:135:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m135 |[0m                  name = [31m"email"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Register.scala:166:36 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m166 |[0m                  name = [31m"password"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                    ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Register.scala:197:43 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m197 |[0m                  name = [31m"confirmPassword"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                           ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Register.scala:222:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m222 |[0m              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Settings.scala:255:43 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m255 |[0m                    name = [31m"notifications"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                           ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Settings.scala:360:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m360 |[0m              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UploadDataset.scala:104:50 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m104 |[0m        [33mval[0m [36mformData[0m = js.Dynamic.global.FormData.[33mnew[0m()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                  ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                               an identifier expected, but 'new' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UploadDataset.scala:211:30 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m211 |[0m                  id = [31m"name"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                              ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                              expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UploadDataset.scala:264:30 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m264 |[0m                  id = [31m"file"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                              ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                              expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UploadDataset.scala:291:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m291 |[0m                js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UploadDataset.scala:482:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m482 |[0m                js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UserProfile.scala:213:32 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m213 |[0m                  name = [31m"name"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UserProfile.scala:241:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m241 |[0m                  name = [31m"email"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UserProfile.scala:260:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m260 |[0m                js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UserProfile.scala:311:44 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m311 |[0m                  name = [31m"current-password"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                            ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UserProfile.scala:339:40 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m339 |[0m                  name = [31m"new-password"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                        ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UserProfile.scala:376:44 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m376 |[0m                  name = [31m"confirm-password"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                            ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\UserProfile.scala:395:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m395 |[0m                js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                   expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E031] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\VisualizationDetail.scala:317:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m317 |[0m                ).filter(_ != [31mnull[0m): _*[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                  * can be used only for last argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\pages\Visualizations.scala:176:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m176 |[0m              js.Dynamic.literal([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                 ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                 expression expected but [31mtype[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\services\DatasetService.scala:46:50 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m      headers = js.Dynamic.literal([31m"Content-Type"[0m = [31m"multipart/form-data"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                  ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                             ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\services\HttpClient.scala:18:21 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m      [31m"Content-Type"[0m = [31m"application/json"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\services\ReportService.scala:85:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m85 |[0m        [31m"Content-Type"[0m = [31m"application/json"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                       ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                       ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\services\ReportService.scala:156:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m156 |[0m        [31m"Content-Type"[0m = [31m"application/json"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                       ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                       ')' expected, but '=' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:12:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m    FC {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: FC[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:18:44 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m      [33mval[0m (currentRoute, setCurrentRoute) = useState(() => getRouteFromHash())[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                            ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                            Not found: useState[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E045] Cyclic Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:18:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m      [33mval[0m (currentRoute, setCurrentRoute) = useState(() => getRouteFromHash())[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m           ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Recursive [33mvalue[0m [35m$1$[0m needs type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E045] Cyclic Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:18:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m      [33mval[0m (currentRoute, setCurrentRoute) = useState(() => getRouteFromHash())[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                         ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                         Recursive [33mvalue[0m [35m$1$[0m needs type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:21:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m      useEffect(() => {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      Not found: useEffect[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:47:12 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m47 |[0m        [33mif[0m (!isAuthenticated) {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m            ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            Found:    scala.scalajs.js.Dynamic[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            Required: Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            The following import might fix the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              import scalajs.js.DynamicImplicits.truthValue[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:113:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m113 |[0m                [31m"div"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                Found:    ([32m"div"[0m : String)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                Required: scalajs.js.Object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:119:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m119 |[0m                  [31m"h2"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Found:    ([32m"h2"[0m : String)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Required: scalajs.js.Object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:123:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m123 |[0m                  [31ms"Dataset Details (ID: [0m$id[31m)"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Found:    String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Required: survivai.bindings.ReactBindings.Element[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:127:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m127 |[0m                  [31m"p"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                  ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Found:    ([32m"p"[0m : String)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Required: scalajs.js.Object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:131:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m131 |[0m                  [31m"This page is currently being migrated to Scala.js."[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mFound:    ([32m"This page is currently being migrated to Scala.js."[0m : String)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mRequired: survivai.bindings.ReactBindings.Element[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:134:20 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m134 |[0m              title = [31m"Dataset Details"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m              ^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[33mmethod[0m [35mapply[0m in [33mobject[0m [35mTuple3[0m: (_1: T1, _2: T2, _3: T3): (T1, T2, T3) does not have a parameter title[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:135:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m135 |[0m              subtitle = [31ms"Viewing details for dataset [0m$id[31m"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[33mmethod[0m [35mapply[0m in [33mobject[0m [35mTuple3[0m: (_1: T1, _2: T2, _3: T3): (T1, T2, T3) does not have a parameter subtitle[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:148:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m148 |[0m                [31m"div"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                Found:    ([32m"div"[0m : String)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                Required: scalajs.js.Object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:154:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m154 |[0m                  [31m"h2"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Found:    ([32m"h2"[0m : String)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Required: scalajs.js.Object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:158:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m158 |[0m                  [31ms"Analysis Details (ID: [0m$id[31m)"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Found:    String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Required: survivai.bindings.ReactBindings.Element[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:162:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m162 |[0m                  [31m"p"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                  ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Found:    ([32m"p"[0m : String)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Required: scalajs.js.Object[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:166:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m166 |[0m                  [31m"This page is currently being migrated to Scala.js."[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mFound:    ([32m"This page is currently being migrated to Scala.js."[0m : String)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mRequired: survivai.bindings.ReactBindings.Element[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:169:20 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m169 |[0m              title = [31m"Analysis Details"[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m              ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[33mmethod[0m [35mapply[0m in [33mobject[0m [35mTuple3[0m: (_1: T1, _2: T2, _3: T3): (T1, T2, T3) does not have a parameter title[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\App.scala:170:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m170 |[0m              subtitle = [31ms"Viewing details for analysis [0m$id[31m"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[33mmethod[0m [35mapply[0m in [33mobject[0m [35mTuple3[0m: (_1: T1, _2: T2, _3: T3): (T1, T2, T3) does not have a parameter subtitle[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\contexts\AnalysisContext.scala:184:25 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m184 |[0m        selectAnalysis = selectAnalysis,[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                         ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[33mmethod[0m [35mselectAnalysis[0m is eta-expanded even though scalajs.js.Function1[String, Unit] does not have the @FunctionalInterface annotation.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\contexts\AnalysisContext.scala:186:25 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m186 |[0m        createAnalysis = createAnalysis,[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                         ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[33mmethod[0m [35mcreateAnalysis[0m is eta-expanded even though scalajs.js.Function1[survivai.models.Analysis.CreateAnalysisPayload, Unit] does not have the @FunctionalInterface annotation.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\contexts\AnalysisContext.scala:187:25 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m187 |[0m        updateAnalysis = updateAnalysis,[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                         ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[33mmethod[0m [35mupdateAnalysis[0m is eta-expanded even though scalajs.js.Function1[survivai.models.Analysis.Analysis, Unit] does not have the @FunctionalInterface annotation.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\AI_PROJECTS\SurvivAI-NextGen\frontend\src\main\scala\survivai\contexts\AnalysisContext.scala:188:25 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m188 |[0m        deleteAnalysis = deleteAnalysis[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                         ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[33mmethod[0m [35mdeleteAnalysis[0m is eta-expanded even though scalajs.js.Function1[String, Unit] does not have the @FunctionalInterface annotation.[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 3 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m2103 errors found[0m

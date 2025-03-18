@@ -1,0 +1,167 @@
+rescript = 1
+g_finger := D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\@rescript\react\lib\ocaml\install.stamp
+g_finger := D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\@rescript\core\lib\ocaml\install.stamp
+g_finger := D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\bs-fetch\lib\ocaml\install.stamp
+g_finger := D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\rescript-webapi\lib\ocaml\install.stamp
+rule astj
+  command = "D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\rescript\win32\bsc.exe"  -bs-v 11.1.4 -bs-jsx 4 -bs-jsx-mode automatic -uncurried -open RescriptCore -absname -bs-ast -o $out $i
+o src\App.ast : astj ..\..\src\App.res
+rule deps
+  command = "D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\rescript\win32\bsb_helper.exe" -hash 0db5ae3ffefad86cf6056c5cc928b029 $in
+  restat = 1
+o src\App.d : deps src\App.ast
+rule mij
+  command = "D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\rescript\win32\bsc.exe" -I "src\bindings" -I "src\components\layout" -I "src\components\reports" -I "src\components\visualizations" -I "src\components" -I "src\contexts" -I "src\pages" -I "src\services" -I "src\styles" -I "src\types" -I src -I "D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\@rescript\react\lib\ocaml" -I "D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\@rescript\core\lib\ocaml" -I "D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\bs-fetch\lib\ocaml" -I "D:\AI_PROJECTS\SurvivAI-NextGen\frontend\node_modules\rescript-webapi\lib\ocaml" -open RescriptCore  -uncurried -bs-package-name survivai-frontend -bs-package-output esmodule:$in_d:.res.js -bs-v $g_finger $i
+  dyndep = 1
+  restat = 1
+o src\App.cmj src\App.cmi ..\..\src\App.res.js : mij src\App.ast
+o src\Main.ast : astj ..\..\src\Main.res
+o src\Main.d : deps src\Main.ast
+o src\Main.cmj src\Main.cmi ..\..\src\Main.res.js : mij src\Main.ast
+o src\index.ast : astj ..\..\src\index.res
+o src\index.d : deps src\index.ast
+o src\index.cmj src\index.cmi ..\..\src\index.res.js : mij src\index.ast
+o src\types\User.ast : astj ..\..\src\types\User.res
+o src\types\User.d : deps src\types\User.ast
+o src\types\User.cmj src\types\User.cmi ..\..\src\types\User.res.js : mij src\types\User.ast
+o src\types\Model.ast : astj ..\..\src\types\Model.res
+o src\types\Model.d : deps src\types\Model.ast
+o src\types\Model.cmj src\types\Model.cmi ..\..\src\types\Model.res.js : mij src\types\Model.ast
+o src\types\Types.ast : astj ..\..\src\types\Types.res
+o src\types\Types.d : deps src\types\Types.ast
+o src\types\Types.cmj src\types\Types.cmi ..\..\src\types\Types.res.js : mij src\types\Types.ast
+o src\types\Report.ast : astj ..\..\src\types\Report.res
+o src\types\Report.d : deps src\types\Report.ast
+o src\types\Report.cmj src\types\Report.cmi ..\..\src\types\Report.res.js : mij src\types\Report.ast
+o src\types\Dataset.ast : astj ..\..\src\types\Dataset.res
+o src\types\Dataset.d : deps src\types\Dataset.ast
+o src\types\Dataset.cmj src\types\Dataset.cmi ..\..\src\types\Dataset.res.js : mij src\types\Dataset.ast
+o src\types\Analysis.ast : astj ..\..\src\types\Analysis.res
+o src\types\Analysis.d : deps src\types\Analysis.ast
+o src\types\Analysis.cmj src\types\Analysis.cmi ..\..\src\types\Analysis.res.js : mij src\types\Analysis.ast
+o src\types\Visualization.ast : astj ..\..\src\types\Visualization.res
+o src\types\Visualization.d : deps src\types\Visualization.ast
+o src\types\Visualization.cmj src\types\Visualization.cmi ..\..\src\types\Visualization.res.js : mij src\types\Visualization.ast
+o src\types\VisualizationFilters.ast : astj ..\..\src\types\VisualizationFilters.res
+o src\types\VisualizationFilters.d : deps src\types\VisualizationFilters.ast
+o src\types\VisualizationFilters.cmj src\types\VisualizationFilters.cmi ..\..\src\types\VisualizationFilters.res.js : mij src\types\VisualizationFilters.ast
+o src\services\Services.ast : astj ..\..\src\services\Services.res
+o src\services\Services.d : deps src\services\Services.ast
+o src\services\Services.cmj src\services\Services.cmi ..\..\src\services\Services.res.js : mij src\services\Services.ast
+o src\services\AuthService.ast : astj ..\..\src\services\AuthService.res
+o src\services\AuthService.d : deps src\services\AuthService.ast
+o src\services\AuthService.cmj src\services\AuthService.cmi ..\..\src\services\AuthService.res.js : mij src\services\AuthService.ast
+o src\services\ModelService.ast : astj ..\..\src\services\ModelService.res
+o src\services\ModelService.d : deps src\services\ModelService.ast
+o src\services\ModelService.cmj src\services\ModelService.cmi ..\..\src\services\ModelService.res.js : mij src\services\ModelService.ast
+o src\services\ReportService.ast : astj ..\..\src\services\ReportService.res
+o src\services\ReportService.d : deps src\services\ReportService.ast
+o src\services\ReportService.cmj src\services\ReportService.cmi ..\..\src\services\ReportService.res.js : mij src\services\ReportService.ast
+o src\services\DatasetService.ast : astj ..\..\src\services\DatasetService.res
+o src\services\DatasetService.d : deps src\services\DatasetService.ast
+o src\services\DatasetService.cmj src\services\DatasetService.cmi ..\..\src\services\DatasetService.res.js : mij src\services\DatasetService.ast
+o src\services\AnalysisService.ast : astj ..\..\src\services\AnalysisService.res
+o src\services\AnalysisService.d : deps src\services\AnalysisService.ast
+o src\services\AnalysisService.cmj src\services\AnalysisService.cmi ..\..\src\services\AnalysisService.res.js : mij src\services\AnalysisService.ast
+o src\services\VisualizationService.ast : astj ..\..\src\services\VisualizationService.res
+o src\services\VisualizationService.d : deps src\services\VisualizationService.ast
+o src\services\VisualizationService.cmj src\services\VisualizationService.cmi ..\..\src\services\VisualizationService.res.js : mij src\services\VisualizationService.ast
+o src\pages\Login.ast : astj ..\..\src\pages\Login.res
+o src\pages\Login.d : deps src\pages\Login.ast
+o src\pages\Login.cmj src\pages\Login.cmi ..\..\src\pages\Login.res.js : mij src\pages\Login.ast
+o src\pages\Pages.ast : astj ..\..\src\pages\Pages.res
+o src\pages\Pages.d : deps src\pages\Pages.ast
+o src\pages\Pages.cmj src\pages\Pages.cmi ..\..\src\pages\Pages.res.js : mij src\pages\Pages.ast
+o src\pages\Models.ast : astj ..\..\src\pages\Models.res
+o src\pages\Models.d : deps src\pages\Models.ast
+o src\pages\Models.cmj src\pages\Models.cmi ..\..\src\pages\Models.res.js : mij src\pages\Models.ast
+o src\pages\Reports.ast : astj ..\..\src\pages\Reports.res
+o src\pages\Reports.d : deps src\pages\Reports.ast
+o src\pages\Reports.cmj src\pages\Reports.cmi ..\..\src\pages\Reports.res.js : mij src\pages\Reports.ast
+o src\pages\Analyses.ast : astj ..\..\src\pages\Analyses.res
+o src\pages\Analyses.d : deps src\pages\Analyses.ast
+o src\pages\Analyses.cmj src\pages\Analyses.cmi ..\..\src\pages\Analyses.res.js : mij src\pages\Analyses.ast
+o src\pages\Datasets.ast : astj ..\..\src\pages\Datasets.res
+o src\pages\Datasets.d : deps src\pages\Datasets.ast
+o src\pages\Datasets.cmj src\pages\Datasets.cmi ..\..\src\pages\Datasets.res.js : mij src\pages\Datasets.ast
+o src\pages\NewModel.ast : astj ..\..\src\pages\NewModel.res
+o src\pages\NewModel.d : deps src\pages\NewModel.ast
+o src\pages\NewModel.cmj src\pages\NewModel.cmi ..\..\src\pages\NewModel.res.js : mij src\pages\NewModel.ast
+o src\pages\Dashboard.ast : astj ..\..\src\pages\Dashboard.res
+o src\pages\Dashboard.d : deps src\pages\Dashboard.ast
+o src\pages\Dashboard.cmj src\pages\Dashboard.cmi ..\..\src\pages\Dashboard.res.js : mij src\pages\Dashboard.ast
+o src\pages\NewAnalysis.ast : astj ..\..\src\pages\NewAnalysis.res
+o src\pages\NewAnalysis.d : deps src\pages\NewAnalysis.ast
+o src\pages\NewAnalysis.cmj src\pages\NewAnalysis.cmi ..\..\src\pages\NewAnalysis.res.js : mij src\pages\NewAnalysis.ast
+o src\pages\Visualizations.ast : astj ..\..\src\pages\Visualizations.res
+o src\pages\Visualizations.d : deps src\pages\Visualizations.ast
+o src\pages\Visualizations.cmj src\pages\Visualizations.cmi ..\..\src\pages\Visualizations.res.js : mij src\pages\Visualizations.ast
+o src\pages\NewVisualization.ast : astj ..\..\src\pages\NewVisualization.res
+o src\pages\NewVisualization.d : deps src\pages\NewVisualization.ast
+o src\pages\NewVisualization.cmj src\pages\NewVisualization.cmi ..\..\src\pages\NewVisualization.res.js : mij src\pages\NewVisualization.ast
+o src\contexts\Contexts.ast : astj ..\..\src\contexts\Contexts.res
+o src\contexts\Contexts.d : deps src\contexts\Contexts.ast
+o src\contexts\Contexts.cmj src\contexts\Contexts.cmi ..\..\src\contexts\Contexts.res.js : mij src\contexts\Contexts.ast
+o src\contexts\AuthContext.ast : astj ..\..\src\contexts\AuthContext.res
+o src\contexts\AuthContext.d : deps src\contexts\AuthContext.ast
+o src\contexts\AuthContext.cmj src\contexts\AuthContext.cmi ..\..\src\contexts\AuthContext.res.js : mij src\contexts\AuthContext.ast
+o src\contexts\LayoutContext.ast : astj ..\..\src\contexts\LayoutContext.res
+o src\contexts\LayoutContext.d : deps src\contexts\LayoutContext.ast
+o src\contexts\LayoutContext.cmj src\contexts\LayoutContext.cmi ..\..\src\contexts\LayoutContext.res.js : mij src\contexts\LayoutContext.ast
+o src\contexts\DatasetContext.ast : astj ..\..\src\contexts\DatasetContext.res
+o src\contexts\DatasetContext.d : deps src\contexts\DatasetContext.ast
+o src\contexts\DatasetContext.cmj src\contexts\DatasetContext.cmi ..\..\src\contexts\DatasetContext.res.js : mij src\contexts\DatasetContext.ast
+o src\contexts\AnalysisContext.ast : astj ..\..\src\contexts\AnalysisContext.res
+o src\contexts\AnalysisContext.d : deps src\contexts\AnalysisContext.ast
+o src\contexts\AnalysisContext.cmj src\contexts\AnalysisContext.cmi ..\..\src\contexts\AnalysisContext.res.js : mij src\contexts\AnalysisContext.ast
+o src\components\DataTable.ast : astj ..\..\src\components\DataTable.res
+o src\components\DataTable.d : deps src\components\DataTable.ast
+o src\components\DataTable.cmj src\components\DataTable.cmi ..\..\src\components\DataTable.res.js : mij src\components\DataTable.ast
+o src\components\Components.ast : astj ..\..\src\components\Components.res
+o src\components\Components.d : deps src\components\Components.ast
+o src\components\Components.cmj src\components\Components.cmi ..\..\src\components\Components.res.js : mij src\components\Components.ast
+o src\components\visualizations\HazardRatioPlot.ast : astj ..\..\src\components\visualizations\HazardRatioPlot.res
+o src\components\visualizations\HazardRatioPlot.d : deps src\components\visualizations\HazardRatioPlot.ast
+o src\components\visualizations\HazardRatioPlot.cmj src\components\visualizations\HazardRatioPlot.cmi ..\..\src\components\visualizations\HazardRatioPlot.res.js : mij src\components\visualizations\HazardRatioPlot.ast
+o src\components\visualizations\KaplanMeierCurve.ast : astj ..\..\src\components\visualizations\KaplanMeierCurve.res
+o src\components\visualizations\KaplanMeierCurve.d : deps src\components\visualizations\KaplanMeierCurve.ast
+o src\components\visualizations\KaplanMeierCurve.cmj src\components\visualizations\KaplanMeierCurve.cmi ..\..\src\components\visualizations\KaplanMeierCurve.res.js : mij src\components\visualizations\KaplanMeierCurve.ast
+o src\components\visualizations\BaseVisualization.ast : astj ..\..\src\components\visualizations\BaseVisualization.res
+o src\components\visualizations\BaseVisualization.d : deps src\components\visualizations\BaseVisualization.ast
+o src\components\visualizations\BaseVisualization.cmj src\components\visualizations\BaseVisualization.cmi ..\..\src\components\visualizations\BaseVisualization.res.js : mij src\components\visualizations\BaseVisualization.ast
+o src\components\visualizations\FeatureImportanceViz.ast : astj ..\..\src\components\visualizations\FeatureImportanceViz.res
+o src\components\visualizations\FeatureImportanceViz.d : deps src\components\visualizations\FeatureImportanceViz.ast
+o src\components\visualizations\FeatureImportanceViz.cmj src\components\visualizations\FeatureImportanceViz.cmi ..\..\src\components\visualizations\FeatureImportanceViz.res.js : mij src\components\visualizations\FeatureImportanceViz.ast
+o src\components\reports\ReportList.ast : astj ..\..\src\components\reports\ReportList.res
+o src\components\reports\ReportList.d : deps src\components\reports\ReportList.ast
+o src\components\reports\ReportList.cmj src\components\reports\ReportList.cmi ..\..\src\components\reports\ReportList.res.js : mij src\components\reports\ReportList.ast
+o src\components\reports\ReportViewer.ast : astj ..\..\src\components\reports\ReportViewer.res
+o src\components\reports\ReportViewer.d : deps src\components\reports\ReportViewer.ast
+o src\components\reports\ReportViewer.cmj src\components\reports\ReportViewer.cmi ..\..\src\components\reports\ReportViewer.res.js : mij src\components\reports\ReportViewer.ast
+o src\components\reports\ReportChatbot.ast : astj ..\..\src\components\reports\ReportChatbot.res
+o src\components\reports\ReportChatbot.d : deps src\components\reports\ReportChatbot.ast
+o src\components\reports\ReportChatbot.cmj src\components\reports\ReportChatbot.cmi ..\..\src\components\reports\ReportChatbot.res.js : mij src\components\reports\ReportChatbot.ast
+o src\components\reports\ReportGenerationForm.ast : astj ..\..\src\components\reports\ReportGenerationForm.res
+o src\components\reports\ReportGenerationForm.d : deps src\components\reports\ReportGenerationForm.ast
+o src\components\reports\ReportGenerationForm.cmj src\components\reports\ReportGenerationForm.cmi ..\..\src\components\reports\ReportGenerationForm.res.js : mij src\components\reports\ReportGenerationForm.ast
+o src\components\layout\Footer.ast : astj ..\..\src\components\layout\Footer.res
+o src\components\layout\Footer.d : deps src\components\layout\Footer.ast
+o src\components\layout\Footer.cmj src\components\layout\Footer.cmi ..\..\src\components\layout\Footer.res.js : mij src\components\layout\Footer.ast
+o src\components\layout\Layout.ast : astj ..\..\src\components\layout\Layout.res
+o src\components\layout\Layout.d : deps src\components\layout\Layout.ast
+o src\components\layout\Layout.cmj src\components\layout\Layout.cmi ..\..\src\components\layout\Layout.res.js : mij src\components\layout\Layout.ast
+o src\components\layout\Navbar.ast : astj ..\..\src\components\layout\Navbar.res
+o src\components\layout\Navbar.d : deps src\components\layout\Navbar.ast
+o src\components\layout\Navbar.cmj src\components\layout\Navbar.cmi ..\..\src\components\layout\Navbar.res.js : mij src\components\layout\Navbar.ast
+o src\components\layout\Sidebar.ast : astj ..\..\src\components\layout\Sidebar.res
+o src\components\layout\Sidebar.d : deps src\components\layout\Sidebar.ast
+o src\components\layout\Sidebar.cmj src\components\layout\Sidebar.cmi ..\..\src\components\layout\Sidebar.res.js : mij src\components\layout\Sidebar.ast
+o src\components\layout\Layout_Layout.ast : astj ..\..\src\components\layout\Layout_Layout.res
+o src\components\layout\Layout_Layout.d : deps src\components\layout\Layout_Layout.ast
+o src\components\layout\Layout_Layout.cmj src\components\layout\Layout_Layout.cmi ..\..\src\components\layout\Layout_Layout.res.js : mij src\components\layout\Layout_Layout.ast
+o src\bindings\React.ast : astj ..\..\src\bindings\React.res
+o src\bindings\React.d : deps src\bindings\React.ast
+o src\bindings\React.cmj src\bindings\React.cmi ..\..\src\bindings\React.res.js : mij src\bindings\React.ast
+o src\bindings\ReactBinding.ast : astj ..\..\src\bindings\ReactBinding.res
+o src\bindings\ReactBinding.d : deps src\bindings\ReactBinding.ast
+o src\bindings\ReactBinding.cmj src\bindings\ReactBinding.cmi ..\..\src\bindings\ReactBinding.res.js : mij src\bindings\ReactBinding.ast

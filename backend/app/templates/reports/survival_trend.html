@@ -1,0 +1,101 @@
+{% extends "base_report.html" %}
+
+{% block content %}
+<section class="survival-trend-section">
+    <h2>Survival Trend Analysis</h2>
+    
+    <div class="insights-box">
+        <h3>AI-Generated Insights</h3>
+        <p>{{ ai_summary }}</p>
+    </div>
+    
+    <div class="chart-container">
+        <h3>Survival Trend Prediction</h3>
+        <img src="data:image/png;base64,{{ trend_prediction_image }}" alt="Survival Trend Prediction" style="width: 100%; max-width: 600px;">
+    </div>
+    
+    <h3>Model Performance Metrics Over Time</h3>
+    <div class="chart-container">
+        <img src="data:image/png;base64,{{ metrics_over_time_image }}" alt="Performance Metrics Over Time" style="width: 100%; max-width: 600px;">
+    </div>
+    
+    <h3>Performance Comparison</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Time Period</th>
+                <th>C-Index</th>
+                <th>Brier Score</th>
+                <th>AUC</th>
+                <th>Sample Size</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for period in time_periods %}
+            <tr>
+                <td>{{ period.name }}</td>
+                <td>{{ period.c_index }}</td>
+                <td>{{ period.brier_score }}</td>
+                <td>{{ period.auc }}</td>
+                <td>{{ period.sample_size }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <h3>Trend Analysis</h3>
+    <p>{{ trend_analysis_description }}</p>
+    
+    <h3>Prediction Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Time Horizon</th>
+                <th>Predicted Survival Rate</th>
+                <th>95% Confidence Interval</th>
+                <th>Prediction Reliability</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for prediction in predictions %}
+            <tr>
+                <td>{{ prediction.time_horizon }} months</td>
+                <td>{{ prediction.survival_rate * 100 }}%</td>
+                <td>{{ prediction.ci_lower * 100 }}% - {{ prediction.ci_upper * 100 }}%</td>
+                <td>{{ prediction.reliability }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <h3>Factors Influencing Trend</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Factor</th>
+                <th>Impact Direction</th>
+                <th>Impact Magnitude</th>
+                <th>Confidence</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for factor in trend_factors %}
+            <tr>
+                <td>{{ factor.name }}</td>
+                <td>{{ factor.direction }}</td>
+                <td>{{ factor.magnitude }}</td>
+                <td>{{ factor.confidence }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <h3>Validation Methods</h3>
+    <p>{{ validation_description }}</p>
+    
+    <h3>Limitations</h3>
+    <div class="insights-box">
+        <p>{{ limitations }}</p>
+    </div>
+</section>
+{% endblock %}

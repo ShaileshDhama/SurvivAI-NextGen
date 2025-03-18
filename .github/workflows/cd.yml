@@ -1,0 +1,103 @@
+name: Continuous Deployment
+
+on:
+  workflow_run:
+    workflows: ["Continuous Integration"]
+    branches: [main]
+    types: [completed]
+
+jobs:
+  deploy-development:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    environment: development
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+      
+      - name: Install kubectl
+        uses: azure/setup-kubectl@v3
+        with:
+          version: 'v1.24.0'
+      
+      - name: Update kubeconfig
+        run: |
+          aws eks update-kubeconfig --name ${{ secrets.EKS_CLUSTER_NAME }} --region ${{ secrets.AWS_REGION }}
+      
+      - name: Set up Kustomize
+        run: |
+          curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh" | bash
+          sudo mv kustomize /usr/local/bin/
+      
+      - name: Update Kubernetes manifests
+        run: |
+          cd k8s/overlays/dev
+          kustomize edit set image ghcr.io/${{ github.repository }}/backend=ghcr.io/${{ github.repository }}/backend:sha-${{ github.sha }}
+          kustomize edit set image ghcr.io/${{ github.repository }}/frontend=ghcr.io/${{ github.repository }}/frontend:sha-${{ github.sha }}
+      
+      - name: Deploy to development
+        run: |
+          kubectl apply -k k8s/overlays/dev
+          kubectl rollout restart deployment/survivai-backend -n survivai-dev
+          kubectl rollout restart deployment/survivai-frontend -n survivai-dev
+      
+      - name: Verify deployment
+        run: |
+          kubectl rollout status deployment/survivai-backend -n survivai-dev --timeout=180s
+          kubectl rollout status deployment/survivai-frontend -n survivai-dev --timeout=180s
+
+  deploy-production:
+    needs: [deploy-development]
+    runs-on: ubuntu-latest
+    environment: production
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+      
+      - name: Install kubectl
+        uses: azure/setup-kubectl@v3
+        with:
+          version: 'v1.24.0'
+      
+      - name: Update kubeconfig
+        run: |
+          aws eks update-kubeconfig --name ${{ secrets.EKS_CLUSTER_NAME }} --region ${{ secrets.AWS_REGION }}
+      
+      - name: Set up ArgoCD CLI
+        run: |
+          curl -sSL -o argocd-linux-amd64 https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
+          sudo install -m 555 argocd-linux-amd64 /usr/local/bin/argocd
+          rm argocd-linux-amd64
+      
+      - name: Login to ArgoCD
+        run: |
+          argocd login ${{ secrets.ARGOCD_SERVER }} --username ${{ secrets.ARGOCD_USERNAME }} --password ${{ secrets.ARGOCD_PASSWORD }} --insecure
+      
+      - name: Update Production Image Tags
+        run: |
+          cd k8s/overlays/prod
+          kustomize edit set image ghcr.io/${{ github.repository }}/backend=ghcr.io/${{ github.repository }}/backend:sha-${{ github.sha }}
+          kustomize edit set image ghcr.io/${{ github.repository }}/frontend=ghcr.io/${{ github.repository }}/frontend:sha-${{ github.sha }}
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "Update production images to sha-${{ github.sha }}" || echo "No changes to commit"
+          git push
+      
+      - name: Trigger ArgoCD Sync
+        run: |
+          argocd app sync survivai-prod --prune

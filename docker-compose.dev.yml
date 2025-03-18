@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: hseeberger/scala-sbt:11.0.17_1.9.7_3.3.1
+    volumes:
+      - ./frontend:/app
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    command: bash -c "sbt ~fastLinkJS & npm run dev"
+    environment:
+      - NODE_ENV=development
+  
+  backend:
+    image: openjdk:11
+    volumes:
+      - ./backend:/app
+    working_dir: /app
+    ports:
+      - "3001:3001"
+    command: sh -c "./mvnw spring-boot:run"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
